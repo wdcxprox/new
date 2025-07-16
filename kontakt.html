@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de-CH">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt - BS Hydro Cleaning</title>
+    <title>BS Hydro Cleaning - Professionelle Reinigung in der Schweiz</title>
+    <meta name="description" content="Professionelle Stein-, Flächen- und Kanalreinigung in der Schweiz. BS Hydro Cleaning - Ihr Partner für saubere Lösungen.">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+    <div class="water-overlay"></div>
+    
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-droplet"></i>
+                </div>
                 <h1>BS Hydro Cleaning</h1>
             </div>
             <ul class="nav-menu">
@@ -28,130 +35,263 @@
     </nav>
 
     <main>
-        <section class="page-header">
-            <div class="container">
-                <h1 class="page-title">Kontakt</h1>
-                <p class="page-subtitle">Nehmen Sie Kontakt mit uns auf - wir freuen uns auf Ihre Anfrage</p>
+        <section class="hero">
+            <div class="hero-background">
+                <div class="water-particles"></div>
+                <div class="bubble bubble-1"></div>
+                <div class="bubble bubble-2"></div>
+                <div class="bubble bubble-3"></div>
+                <div class="bubble bubble-4"></div>
+                <div class="bubble bubble-5"></div>
+            </div>
+            
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-up">
+                    <h1 class="hero-title">Kontakt & Standorte</h1>
+                    <p class="hero-subtitle">Wir sind in der ganzen Schweiz für Sie da</p>
+
+                </div>
+                
+                <div class="hero-visual" data-aos="fade-left">
+                    <div class="rotating-cube-large">
+                        <div class="cube-face front">
+                            <i class="fas fa-spray-can"></i>
+                        </div>
+                        <div class="cube-face back">
+                            <i class="fas fa-sparkles"></i>
+                        </div>
+                        <div class="cube-face right">
+                            <i class="fas fa-water"></i>
+                        </div>
+                        <div class="cube-face left">
+                            <i class="fas fa-broom"></i>
+                        </div>
+                        <div class="cube-face top">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="cube-face bottom">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Schwebende Service-Kacheln unten mittig -->
+            <div class="floating-services">
+                <div class="service-tile" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="tile-icon">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <h3>Steinreinigung</h3>
+                    <p>Naturstein & Fassaden</p>
+                </div>
+                <div class="service-tile" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="tile-icon">
+                        <i class="fas fa-square"></i>
+                    </div>
+                    <h3>Flächenreinigung</h3>
+                    <p>Terrassen & Parkplätze</p>
+                </div>
+                <div class="service-tile" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="tile-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Kanalreinigung</h3>
+                    <p>Rohre & Abwassersysteme</p>
+                </div>
             </div>
         </section>
 
-        <section class="contact-section">
+        <section class="services">
             <div class="container">
-                <div class="contact-grid">
-                    <div class="contact-info">
-                        <h2>Kontaktinformationen</h2>
-                        <div class="contact-items">
-                            <div class="contact-item">
-                                <div class="contact-icon">
-                                    <i class="fas fa-phone"></i>
+                <h2 class="section-title" data-aos="fade-up">Unsere Dienstleistungen</h2>
+                <div class="services-grid">
+                    <div class="service-card" data-aos="flip-left" data-aos-delay="100">
+                        <div class="service-icon">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                        <h3>Steinreinigung</h3>
+                        <p>Professionelle Reinigung von Naturstein, Marmor, Granit und Fassaden</p>
+                        <ul>
+                            <li>Natursteinreinigung</li>
+                            <li>Fassadenreinigung</li>
+                            <li>Marmor & Granit</li>
+                            <li>Grabstein-Pflege</li>
+                        </ul>
+                        <div class="service-wave"></div>
+                    </div>
+                    
+                    <div class="service-card" data-aos="flip-left" data-aos-delay="200">
+                        <div class="service-icon">
+                            <i class="fas fa-square"></i>
+                        </div>
+                        <h3>Flächenreinigung</h3>
+                        <p>Gründliche Reinigung von Terrassen, Parkplätzen und Aussenflächen</p>
+                        <ul>
+                            <li>Terrassenreinigung</li>
+                            <li>Parkplatz-Reinigung</li>
+                            <li>Gehwegreinigung</li>
+                            <li>Industrieflächen</li>
+                        </ul>
+                        <div class="service-wave"></div>
+                    </div>
+                    
+                    <div class="service-card" data-aos="flip-left" data-aos-delay="300">
+                        <div class="service-icon">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <h3>Kanalreinigung</h3>
+                        <p>Spezialreinigung für Rohre, Kanäle und Abwassersysteme</p>
+                        <ul>
+                            <li>Rohrreinigung</li>
+                            <li>Kanalspülung</li>
+                            <li>Abwasserreinigung</li>
+                            <li>Verstopfungsbeseitigung</li>
+                        </ul>
+                        <div class="service-wave"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="features-content">
+                    <div class="features-text" data-aos="fade-right">
+                        <h2>Warum BS Hydro Cleaning?</h2>
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-check-circle"></i>
                                 </div>
-                                <div class="contact-details">
-                                    <h4>Telefon</h4>
-                                    <p>+49 123 456 789</p>
-                                    <p>Mo - Fr: 8:00 - 18:00 Uhr</p>
+                                <div>
+                                    <h4>Schweizer Qualität</h4>
+                                    <p>Präzision und Zuverlässigkeit nach Schweizer Standards</p>
                                 </div>
                             </div>
-                            <div class="contact-item">
-                                <div class="contact-icon">
-                                    <i class="fas fa-envelope"></i>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-leaf"></i>
                                 </div>
-                                <div class="contact-details">
-                                    <h4>E-Mail</h4>
-                                    <p>info@bs-hydro-cleaning.de</p>
-                                    <p>Wir antworten innerhalb von 24h</p>
-                                </div>
-                            </div>
-                            <div class="contact-item">
-                                <div class="contact-icon">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                </div>
-                                <div class="contact-details">
-                                    <h4>Adresse</h4>
-                                    <p>Musterstraße 123</p>
-                                    <p>12345 Musterstadt</p>
+                                <div>
+                                    <h4>Umweltschonend</h4>
+                                    <p>Biologisch abbaubare Reinigungsmittel für unsere Natur</p>
                                 </div>
                             </div>
-                            <div class="contact-item">
-                                <div class="contact-icon">
+                            <div class="feature-item">
+                                <div class="feature-icon">
                                     <i class="fas fa-clock"></i>
                                 </div>
-                                <div class="contact-details">
-                                    <h4>Öffnungszeiten</h4>
-                                    <p>Montag - Freitag: 8:00 - 18:00</p>
-                                    <p>Samstag: 9:00 - 16:00</p>
-                                    <p>Sonntag: Geschlossen</p>
+                                <div>
+                                    <h4>Schnell & Pünktlich</h4>
+                                    <p>Zuverlässige Termine in der ganzen Schweiz</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div>
+                                    <h4>Vollversichert</h4>
+                                    <p>Umfassende Versicherung für Ihre Sicherheit</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="contact-form-container">
-                        <h2>Anfrage senden</h2>
-                        <form class="contact-form" id="contactForm">
-                            <div class="form-group">
-                                <label for="name">Name *</label>
-                                <input type="text" id="name" name="name" required>
+                    
+                    <div class="features-visual" data-aos="fade-left">
+                        <div class="water-sphere">
+                            <div class="sphere-inner">
+                                <div class="water-drop"></div>
                             </div>
-                            <div class="form-group">
-                                <label for="email">E-Mail *</label>
-                                <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-icon icon-1">
+                                <i class="fas fa-droplet"></i>
                             </div>
-                            <div class="form-group">
-                                <label for="phone">Telefon</label>
-                                <input type="tel" id="phone" name="phone">
+                            <div class="floating-icon icon-2">
+                                <i class="fas fa-sparkles"></i>
                             </div>
-                            <div class="form-group">
-                                <label for="service">Art der Reinigung</label>
-                                <select id="service" name="service">
-                                    <option value="">Bitte wählen...</option>
-                                    <option value="gewerblich">Gewerbliche Reinigung</option>
-                                    <option value="privat">Private Reinigung</option>
-                                    <option value="fassade">Fassadenreinigung</option>
-                                    <option value="hochdruck">Hochdruckreinigung</option>
-                                    <option value="spezial">Spezialreinigung</option>
-                                    <option value="sonstiges">Sonstiges</option>
-                                </select>
+                            <div class="floating-icon icon-3">
+                                <i class="fas fa-wind"></i>
                             </div>
-                            <div class="form-group">
-                                <label for="message">Nachricht *</label>
-                                <textarea id="message" name="message" rows="5" required 
-                                    placeholder="Beschreiben Sie bitte Ihr Reinigungsvorhaben..."></textarea>
-                            </div>
-                            <div class="form-group checkbox-group">
-                                <input type="checkbox" id="privacy" name="privacy" required>
-                                <label for="privacy">Ich stimme der Verarbeitung meiner Daten gemäß der Datenschutzerklärung zu *</label>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Anfrage senden</button>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="map-section">
+        <section class="swiss-locations">
             <div class="container">
-                <h2>Unser Standort</h2>
-                <div class="map-placeholder">
-                    <div class="map-content">
-                        <i class="fas fa-map-marked-alt"></i>
-                        <h3>BS Hydro Cleaning</h3>
-                        <p>Musterstraße 123, 12345 Musterstadt</p>
-                        <p>Wir sind in der gesamten Region für Sie da!</p>
+                <h2 class="section-title" data-aos="fade-up">Schweizweit im Einsatz</h2>
+                <div class="locations-grid">
+                    <div class="location-card" data-aos="slide-up" data-aos-delay="100">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Zürich</h3>
+                        <p>Grossraum Zürich</p>
+                    </div>
+                    <div class="location-card" data-aos="slide-up" data-aos-delay="200">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Basel</h3>
+                        <p>Region Basel</p>
+                    </div>
+                    <div class="location-card" data-aos="slide-up" data-aos-delay="300">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Bern</h3>
+                        <p>Hauptstadtregion</p>
+                    </div>
+                    <div class="location-card" data-aos="slide-up" data-aos-delay="400">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Luzern</h3>
+                        <p>Zentralschweiz</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="emergency-contact">
+        <section class="water-facts">
             <div class="container">
-                <div class="emergency-content">
-                    <div class="emergency-icon">
-                        <i class="fas fa-exclamation-triangle"></i>
+                <h2 class="section-title" data-aos="fade-up">Mit der Kraft des Wassers</h2>
+                <div class="facts-grid">
+                    <div class="fact-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="fact-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <h3>Hochdruck-Technologie</h3>
+                        <p>Bis zu 200 Bar Wasserdruck für optimale Reinigungsergebnisse</p>
                     </div>
-                    <div class="emergency-text">
-                        <h3>Notfall-Reinigung</h3>
-                        <p>Benötigen Sie eine dringende Reinigung? Wir sind auch außerhalb der Geschäftszeiten für Notfälle erreichbar.</p>
-                        <a href="tel:+491234567890" class="btn btn-emergency">Notfall-Hotline: +49 123 456 7890</a>
+                    <div class="fact-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="fact-icon">
+                            <i class="fas fa-thermometer-half"></i>
+                        </div>
+                        <h3>Heisswasser-Verfahren</h3>
+                        <p>Bis zu 85°C für hartnäckige Verschmutzungen</p>
+                    </div>
+                    <div class="fact-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="fact-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <h3>Wasser-Recycling</h3>
+                        <p>Nachhaltiger Umgang mit unserem wertvollsten Gut</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content" data-aos="fade-up">
+                    <h2>Bereit für professionelle Sauberkeit?</h2>
+                    <p>Kontaktieren Sie uns noch heute für eine kostenlose Offerte</p>
+                    <div class="cta-buttons">
+                        <a href="kontakt.html" class="btn btn-primary">
+                            <i class="fas fa-phone"></i>
+                            Kostenlose Offerte
+                        </a>
+                        <a href="tel:+41445551234" class="btn btn-secondary">
+                            <i class="fas fa-phone-alt"></i>
+                            +41 44 555 12 34
+                        </a>
                     </div>
                 </div>
             </div>
@@ -163,20 +303,26 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>BS Hydro Cleaning</h3>
-                    <p>Ihr Partner für professionelle Oberflächenreinigung</p>
+                    <p>Ihr Partner für professionelle Reinigung in der Schweiz</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
                 </div>
                 <div class="footer-section">
-                    <h4>Leistungen</h4>
+                    <h4>Dienstleistungen</h4>
                     <ul>
-                        <li>Gewerbliche Reinigung</li>
-                        <li>Private Reinigung</li>
-                        <li>Spezialreinigung</li>
+                        <li>Steinreinigung</li>
+                        <li>Flächenreinigung</li>
+                        <li>Kanalreinigung</li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Kontakt</h4>
-                    <p>Telefon: +49 123 456 789</p>
-                    <p>E-Mail: info@bs-hydro-cleaning.de</p>
+                    <p>Telefon: +41 44 555 12 34</p>
+                    <p>E-Mail: info@bs-hydro-cleaning.ch</p>
+                    <p>Zürich, Schweiz</p>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -185,6 +331,7 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
