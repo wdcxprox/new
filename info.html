@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de-CH">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Info - BS Hydro Cleaning</title>
+    <title>Info - BS Hydro Cleaning - Professionelle Reinigung Schweiz</title>
+    <meta name="description" content="Erfahren Sie mehr über BS Hydro Cleaning - Ihr Experte für professionelle Stein-, Flächen- und Kanalreinigung in der Schweiz.">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+    <div class="water-overlay"></div>
+    
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-droplet"></i>
+                </div>
                 <h1>BS Hydro Cleaning</h1>
             </div>
             <ul class="nav-menu">
@@ -28,26 +35,67 @@
     </nav>
 
     <main>
-        <section class="page-header">
-            <div class="container">
-                <h1 class="page-title">Über BS Hydro Cleaning</h1>
-                <p class="page-subtitle">Professionelle Oberflächenreinigung seit Jahren - Ihr vertrauensvoller Partner</p>
+        <section class="hero info-hero">
+            <div class="hero-background">
+                <div class="water-particles"></div>
+                <div class="bubble bubble-1"></div>
+                <div class="bubble bubble-2"></div>
+                <div class="bubble bubble-3"></div>
+                <div class="bubble bubble-4"></div>
+                <div class="bubble bubble-5"></div>
+            </div>
+            
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-up">
+                    <h1 class="hero-title">Über BS Hydro Cleaning</h1>
+                    <p class="hero-subtitle">Ihr vertrauensvoller Partner für professionelle Reinigung in der Schweiz</p>
+                </div>
+                
+                <div class="hero-cube-container" data-aos="fade-left" data-aos-delay="200">
+                    <div class="cube-3d" id="info-cube">
+                        <div class="cube-face cube-front">
+                            <i class="fas fa-award"></i>
+                            <span>Qualität</span>
+                        </div>
+                        <div class="cube-face cube-back">
+                            <i class="fas fa-leaf"></i>
+                            <span>Umwelt</span>
+                        </div>
+                        <div class="cube-face cube-right">
+                            <i class="fas fa-clock"></i>
+                            <span>Pünktlich</span>
+                        </div>
+                        <div class="cube-face cube-left">
+                            <i class="fas fa-tools"></i>
+                            <span>Technik</span>
+                        </div>
+                        <div class="cube-face cube-top">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Sicher</span>
+                        </div>
+                        <div class="cube-face cube-bottom">
+                            <i class="fas fa-heart"></i>
+                            <span>Service</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="about-intro">
+        <section class="about-intro section-padding">
             <div class="container">
-                <div class="about-content">
-                    <div class="about-text">
-                        <h2>Unsere Mission</h2>
-                        <p>Bei BS Hydro Cleaning verstehen wir uns als Ihr zuverlässiger Partner für alle Arten der Oberflächenreinigung. Mit modernster Technik, umweltfreundlichen Verfahren und jahrelanger Erfahrung sorgen wir dafür, dass Ihre Oberflächen wieder in neuem Glanz erstrahlen.</p>
-                        <p>Ob gewerbliche Immobilien, private Haushalte oder spezielle Reinigungsanforderungen - wir bieten maßgeschneiderte Lösungen für jeden Bedarf.</p>
+                <div class="row">
+                    <div class="col-md-6" data-aos="fade-right">
+                        <h2 class="section-title">Unsere Mission</h2>
+                        <p class="section-text">Bei BS Hydro Cleaning verstehen wir uns als Ihr zuverlässiger Partner für alle Arten der Oberflächenreinigung. Mit modernster Schweizer Technik, umweltfreundlichen Verfahren und jahrelanger Erfahrung sorgen wir dafür, dass Ihre Oberflächen wieder in neuem Glanz erstrahlen.</p>
+                        <p class="section-text">Ob gewerbliche Immobilien, private Haushalte oder spezielle Reinigungsanforderungen - wir bieten maßgeschneiderte Lösungen für jeden Bedarf in der ganzen Schweiz.</p>
                     </div>
-                    <div class="about-stats">
-                        <div class="stat-item">
-                            <div class="stat-number">500+</div>
-                            <div class="stat-label">Zufriedene Kunden</div>
-                        </div>
+                    <div class="col-md-6" data-aos="fade-left">
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-number">500+</div>
+                                <div class="stat-label">Zufriedene Kunden</div>
+                            </div>
                         <div class="stat-item">
                             <div class="stat-number">10+</div>
                             <div class="stat-label">Jahre Erfahrung</div>
