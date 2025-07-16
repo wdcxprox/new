@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de-CH">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BS Hydro Cleaning - Professionelle Oberflächenreinigung</title>
+    <title>BS Hydro Cleaning - Professionelle Reinigung in der Schweiz</title>
+    <meta name="description" content="Professionelle Stein-, Flächen- und Kanalreinigung in der Schweiz. BS Hydro Cleaning - Ihr Partner für saubere Lösungen.">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+    <div class="water-overlay"></div>
+    
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-droplet"></i>
+                </div>
                 <h1>BS Hydro Cleaning</h1>
             </div>
             <ul class="nav-menu">
@@ -29,71 +36,128 @@
 
     <main>
         <section class="hero">
+            <div class="hero-background">
+                <div class="water-particles"></div>
+                <div class="bubble bubble-1"></div>
+                <div class="bubble bubble-2"></div>
+                <div class="bubble bubble-3"></div>
+                <div class="bubble bubble-4"></div>
+                <div class="bubble bubble-5"></div>
+            </div>
+            
             <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title">Professionelle Oberflächenreinigung</h1>
-                    <p class="hero-subtitle">Für Gewerbe und Privat - Wir bringen Ihre Oberflächen zum Strahlen</p>
+                <div class="hero-text" data-aos="fade-up">
+                    <h1 class="hero-title">Professionelle Reinigung in der Schweiz</h1>
+                    <p class="hero-subtitle">Von Steinreinigung bis Kanalservice - Wir bringen Sauberkeit in Ihr Leben</p>
                     <div class="hero-buttons">
-                        <a href="kontakt.html" class="btn btn-primary">Jetzt anfragen</a>
-                        <a href="info.html" class="btn btn-secondary">Mehr erfahren</a>
+                        <a href="kontakt.html" class="btn btn-primary">
+                            <i class="fas fa-phone"></i>
+                            Jetzt anfragen
+                        </a>
+                        <a href="info.html" class="btn btn-secondary">
+                            <i class="fas fa-info-circle"></i>
+                            Mehr erfahren
+                        </a>
                     </div>
                 </div>
-                <div class="hero-visual">
-                    <div class="floating-card card-1">
-                        <i class="fas fa-spray-can"></i>
-                        <h3>Hochdruckreinigung</h3>
+                
+                <div class="hero-visual" data-aos="fade-left">
+                    <div class="rotating-cube-large">
+                        <div class="cube-face front">
+                            <i class="fas fa-spray-can"></i>
+                        </div>
+                        <div class="cube-face back">
+                            <i class="fas fa-sparkles"></i>
+                        </div>
+                        <div class="cube-face right">
+                            <i class="fas fa-water"></i>
+                        </div>
+                        <div class="cube-face left">
+                            <i class="fas fa-broom"></i>
+                        </div>
+                        <div class="cube-face top">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="cube-face bottom">
+                            <i class="fas fa-certificate"></i>
+                        </div>
                     </div>
-                    <div class="floating-card card-2">
-                        <i class="fas fa-home"></i>
-                        <h3>Fassadenreinigung</h3>
+                </div>
+            </div>
+            
+            <!-- Schwebende Service-Kacheln unten mittig -->
+            <div class="floating-services">
+                <div class="service-tile" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="tile-icon">
+                        <i class="fas fa-mountain"></i>
                     </div>
-                    <div class="floating-card card-3">
-                        <i class="fas fa-car"></i>
-                        <h3>Fahrzeugreinigung</h3>
+                    <h3>Steinreinigung</h3>
+                    <p>Naturstein & Fassaden</p>
+                </div>
+                <div class="service-tile" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="tile-icon">
+                        <i class="fas fa-square"></i>
                     </div>
+                    <h3>Flächenreinigung</h3>
+                    <p>Terrassen & Parkplätze</p>
+                </div>
+                <div class="service-tile" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="tile-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Kanalreinigung</h3>
+                    <p>Rohre & Abwassersysteme</p>
                 </div>
             </div>
         </section>
 
         <section class="services">
             <div class="container">
-                <h2 class="section-title">Unsere Leistungen</h2>
+                <h2 class="section-title" data-aos="fade-up">Unsere Dienstleistungen</h2>
                 <div class="services-grid">
-                    <div class="service-card">
+                    <div class="service-card" data-aos="flip-left" data-aos-delay="100">
                         <div class="service-icon">
-                            <i class="fas fa-building"></i>
+                            <i class="fas fa-mountain"></i>
                         </div>
-                        <h3>Gewerbliche Reinigung</h3>
-                        <p>Professionelle Reinigung für Bürogebäude, Industrieanlagen und Geschäftsflächen</p>
+                        <h3>Steinreinigung</h3>
+                        <p>Professionelle Reinigung von Naturstein, Marmor, Granit und Fassaden</p>
                         <ul>
+                            <li>Natursteinreinigung</li>
                             <li>Fassadenreinigung</li>
-                            <li>Parkplatz- und Zufahrtsreinigung</li>
-                            <li>Industrieanlagen-Reinigung</li>
+                            <li>Marmor & Granit</li>
+                            <li>Grabstein-Pflege</li>
                         </ul>
+                        <div class="service-wave"></div>
                     </div>
-                    <div class="service-card">
+                    
+                    <div class="service-card" data-aos="flip-left" data-aos-delay="200">
                         <div class="service-icon">
-                            <i class="fas fa-home"></i>
+                            <i class="fas fa-square"></i>
                         </div>
-                        <h3>Private Reinigung</h3>
-                        <p>Zuverlässige Reinigungsservices für Ihr Zuhause und Ihre Außenbereiche</p>
+                        <h3>Flächenreinigung</h3>
+                        <p>Gründliche Reinigung von Terrassen, Parkplätzen und Aussenflächen</p>
                         <ul>
-                            <li>Terrassen- und Balkonreinigung</li>
-                            <li>Garagenreinigung</li>
-                            <li>Hausreinigung</li>
+                            <li>Terrassenreinigung</li>
+                            <li>Parkplatz-Reinigung</li>
+                            <li>Gehwegreinigung</li>
+                            <li>Industrieflächen</li>
                         </ul>
+                        <div class="service-wave"></div>
                     </div>
-                    <div class="service-card">
+                    
+                    <div class="service-card" data-aos="flip-left" data-aos-delay="300">
                         <div class="service-icon">
-                            <i class="fas fa-tools"></i>
+                            <i class="fas fa-tint"></i>
                         </div>
-                        <h3>Spezialreinigung</h3>
-                        <p>Professionelle Lösungen für besondere Reinigungsanforderungen</p>
+                        <h3>Kanalreinigung</h3>
+                        <p>Spezialreinigung für Rohre, Kanäle und Abwassersysteme</p>
                         <ul>
-                            <li>Graffiti-Entfernung</li>
-                            <li>Steinreinigung</li>
-                            <li>Solaranlagen-Reinigung</li>
+                            <li>Rohrreinigung</li>
+                            <li>Kanalspülung</li>
+                            <li>Abwasserreinigung</li>
+                            <li>Verstopfungsbeseitigung</li>
                         </ul>
+                        <div class="service-wave"></div>
                     </div>
                 </div>
             </div>
@@ -102,58 +166,63 @@
         <section class="features">
             <div class="container">
                 <div class="features-content">
-                    <div class="features-text">
+                    <div class="features-text" data-aos="fade-right">
                         <h2>Warum BS Hydro Cleaning?</h2>
                         <div class="feature-list">
                             <div class="feature-item">
-                                <i class="fas fa-check-circle"></i>
+                                <div class="feature-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
                                 <div>
-                                    <h4>Erfahrung & Expertise</h4>
-                                    <p>Jahrelange Erfahrung in der professionellen Oberflächenreinigung</p>
+                                    <h4>Schweizer Qualität</h4>
+                                    <p>Präzision und Zuverlässigkeit nach Schweizer Standards</p>
                                 </div>
                             </div>
                             <div class="feature-item">
-                                <i class="fas fa-leaf"></i>
+                                <div class="feature-icon">
+                                    <i class="fas fa-leaf"></i>
+                                </div>
                                 <div>
-                                    <h4>Umweltfreundlich</h4>
-                                    <p>Einsatz modernster, umweltschonender Reinigungsverfahren</p>
+                                    <h4>Umweltschonend</h4>
+                                    <p>Biologisch abbaubare Reinigungsmittel für unsere Natur</p>
                                 </div>
                             </div>
                             <div class="feature-item">
-                                <i class="fas fa-clock"></i>
+                                <div class="feature-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
                                 <div>
-                                    <h4>Schnell & Zuverlässig</h4>
-                                    <p>Pünktliche Termine und effiziente Arbeitsweise</p>
+                                    <h4>Schnell & Pünktlich</h4>
+                                    <p>Zuverlässige Termine in der ganzen Schweiz</p>
                                 </div>
                             </div>
                             <div class="feature-item">
-                                <i class="fas fa-shield-alt"></i>
+                                <div class="feature-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
                                 <div>
-                                    <h4>Versichert & Qualifiziert</h4>
-                                    <p>Vollversichert und zertifizierte Reinigungsprofis</p>
+                                    <h4>Vollversichert</h4>
+                                    <p>Umfassende Versicherung für Ihre Sicherheit</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="features-visual">
-                        <div class="rotating-cube">
-                            <div class="cube-face front">
+                    
+                    <div class="features-visual" data-aos="fade-left">
+                        <div class="water-sphere">
+                            <div class="sphere-inner">
+                                <div class="water-drop"></div>
+                            </div>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-icon icon-1">
                                 <i class="fas fa-droplet"></i>
                             </div>
-                            <div class="cube-face back">
+                            <div class="floating-icon icon-2">
                                 <i class="fas fa-sparkles"></i>
                             </div>
-                            <div class="cube-face right">
+                            <div class="floating-icon icon-3">
                                 <i class="fas fa-wind"></i>
-                            </div>
-                            <div class="cube-face left">
-                                <i class="fas fa-brush"></i>
-                            </div>
-                            <div class="cube-face top">
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <div class="cube-face bottom">
-                                <i class="fas fa-certificate"></i>
                             </div>
                         </div>
                     </div>
@@ -161,12 +230,78 @@
             </div>
         </section>
 
+        <section class="swiss-locations">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Schweizweit im Einsatz</h2>
+                <div class="locations-grid">
+                    <div class="location-card" data-aos="slide-up" data-aos-delay="100">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Zürich</h3>
+                        <p>Grossraum Zürich</p>
+                    </div>
+                    <div class="location-card" data-aos="slide-up" data-aos-delay="200">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Basel</h3>
+                        <p>Region Basel</p>
+                    </div>
+                    <div class="location-card" data-aos="slide-up" data-aos-delay="300">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Bern</h3>
+                        <p>Hauptstadtregion</p>
+                    </div>
+                    <div class="location-card" data-aos="slide-up" data-aos-delay="400">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Luzern</h3>
+                        <p>Zentralschweiz</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="water-facts">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Mit der Kraft des Wassers</h2>
+                <div class="facts-grid">
+                    <div class="fact-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="fact-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <h3>Hochdruck-Technologie</h3>
+                        <p>Bis zu 200 Bar Wasserdruck für optimale Reinigungsergebnisse</p>
+                    </div>
+                    <div class="fact-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="fact-icon">
+                            <i class="fas fa-thermometer-half"></i>
+                        </div>
+                        <h3>Heisswasser-Verfahren</h3>
+                        <p>Bis zu 85°C für hartnäckige Verschmutzungen</p>
+                    </div>
+                    <div class="fact-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="fact-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <h3>Wasser-Recycling</h3>
+                        <p>Nachhaltiger Umgang mit unserem wertvollsten Gut</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="cta">
             <div class="container">
-                <div class="cta-content">
-                    <h2>Bereit für strahlend saubere Oberflächen?</h2>
-                    <p>Kontaktieren Sie uns noch heute für ein kostenloses Angebot</p>
-                    <a href="kontakt.html" class="btn btn-primary">Kostenlos anfragen</a>
+                <div class="cta-content" data-aos="fade-up">
+                    <h2>Bereit für professionelle Sauberkeit?</h2>
+                    <p>Kontaktieren Sie uns noch heute für eine kostenlose Offerte</p>
+                    <div class="cta-buttons">
+                        <a href="kontakt.html" class="btn btn-primary">
+                            <i class="fas fa-phone"></i>
+                            Kostenlose Offerte
+                        </a>
+                        <a href="tel:+41445551234" class="btn btn-secondary">
+                            <i class="fas fa-phone-alt"></i>
+                            +41 44 555 12 34
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -177,20 +312,26 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>BS Hydro Cleaning</h3>
-                    <p>Ihr Partner für professionelle Oberflächenreinigung</p>
+                    <p>Ihr Partner für professionelle Reinigung in der Schweiz</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
                 </div>
                 <div class="footer-section">
-                    <h4>Leistungen</h4>
+                    <h4>Dienstleistungen</h4>
                     <ul>
-                        <li>Gewerbliche Reinigung</li>
-                        <li>Private Reinigung</li>
-                        <li>Spezialreinigung</li>
+                        <li>Steinreinigung</li>
+                        <li>Flächenreinigung</li>
+                        <li>Kanalreinigung</li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Kontakt</h4>
-                    <p>Telefon: +49 123 456 789</p>
-                    <p>E-Mail: info@bs-hydro-cleaning.de</p>
+                    <p>Telefon: +41 44 555 12 34</p>
+                    <p>E-Mail: info@bs-hydro-cleaning.ch</p>
+                    <p>Zürich, Schweiz</p>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -199,6 +340,7 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
