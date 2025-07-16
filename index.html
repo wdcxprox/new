@@ -1,307 +1,186 @@
 <!DOCTYPE html>
-<html lang="de-CH">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BS Hydro Cleaning - Professionelle Reinigung in der Schweiz</title>
-    <meta name="description" content="Professionelle Stein-, Flächen- und Kanalreinigung in der Schweiz. BS Hydro Cleaning - Ihr Partner für saubere Lösungen.">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Strategie mit Wirkung - Marketingberatung</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="water-overlay"></div>
-    
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo">
-                <div class="logo-icon">
-                    <i class="fas fa-droplet"></i>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Strategie mit Wirkung</h2>
                 </div>
-                <h1>BS Hydro Cleaning</h1>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link active">Home</a></li>
-                <li><a href="info.html" class="nav-link">Info</a></li>
-                <li><a href="kontakt.html" class="nav-link">Kontakt</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <main>
-        <section class="hero">
-            <div class="hero-background">
-                <div class="water-particles"></div>
-                <div class="bubble bubble-1"></div>
-                <div class="bubble bubble-2"></div>
-                <div class="bubble bubble-3"></div>
-                <div class="bubble bubble-4"></div>
-                <div class="bubble bubble-5"></div>
-            </div>
-            
-            <div class="hero-content">
-                <div class="hero-text" data-aos="fade-up">
-                    <h1 class="hero-title">Professionelle Reinigung in der Schweiz</h1>
-                    <p class="hero-subtitle">Von Steinreinigung bis Kanalservice - Wir bringen Sauberkeit in Ihr Leben</p>
-                    <div class="hero-buttons">
-                        <a href="kontakt.html" class="btn btn-primary">
-                            <i class="fas fa-phone"></i>
-                            Jetzt anfragen
-                        </a>
-                        <a href="info.html" class="btn btn-secondary">
-                            <i class="fas fa-info-circle"></i>
-                            Mehr erfahren
-                        </a>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Strategie mit Wirkung</h1>
+                    <p class="hero-subtitle">Steigere deinen Erfolg mit unseren maßgeschneiderten Services</p>
+                    <div class="hero-services">
+                        <div class="service-item">
+                            <i class="fab fa-facebook"></i>
+                            <span>Social-Media-Werbung (Meta, Google Ads)</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Optimierung von Produktseiten</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>Einrichtung und Betreuung von E-Mail-Newslettern</span>
+                        </div>
+                    </div>
+                    <p class="hero-goal">Und vieles mehr – alles mit dem Ziel, deinen Umsatz strategisch zu steigern.</p>
+                    <a href="#services" class="cta-button">Unsere Services entdecken</a>
+                </div>
+                <div class="hero-visual">
+                    <div class="analytics-card">
+                        <i class="fab fa-google"></i>
+                        <h3>Google Analytics</h3>
+                        <p>Datengetriebene Insights</p>
+                    </div>
+                    <div class="ads-card">
+                        <i class="fas fa-bullhorn"></i>
+                        <h3>Google & Meta Ads</h3>
+                        <p>Zielgerichtete Kampagnen</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Unsere Expertise</h2>
                 
-                <div class="hero-visual" data-aos="fade-left">
-                    <div class="rotating-cube-large">
-                        <div class="cube-face front">
-                            <i class="fas fa-spray-can"></i>
-                        </div>
-                        <div class="cube-face back">
-                            <i class="fas fa-sparkles"></i>
-                        </div>
-                        <div class="cube-face right">
-                            <i class="fas fa-water"></i>
-                        </div>
-                        <div class="cube-face left">
-                            <i class="fas fa-broom"></i>
-                        </div>
-                        <div class="cube-face top">
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <div class="cube-face bottom">
-                            <i class="fas fa-certificate"></i>
-                        </div>
+                <!-- Social Media Service -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-google"></i>
                     </div>
-                </div>
-            </div>
-            
-            <!-- Schwebende Service-Kacheln unten mittig -->
-            <div class="floating-services">
-                <div class="service-tile" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="tile-icon">
-                        <i class="fas fa-mountain"></i>
-                    </div>
-                    <h3>Steinreinigung</h3>
-                    <p>Naturstein & Fassaden</p>
-                </div>
-                <div class="service-tile" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="tile-icon">
-                        <i class="fas fa-square"></i>
-                    </div>
-                    <h3>Flächenreinigung</h3>
-                    <p>Terrassen & Parkplätze</p>
-                </div>
-                <div class="service-tile" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="tile-icon">
-                        <i class="fas fa-tint"></i>
-                    </div>
-                    <h3>Kanalreinigung</h3>
-                    <p>Rohre & Abwassersysteme</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="services">
-            <div class="container">
-                <h2 class="section-title" data-aos="fade-up">Unsere Dienstleistungen</h2>
-                <div class="services-grid">
-                    <div class="service-card" data-aos="flip-left" data-aos-delay="100">
-                        <div class="service-icon">
-                            <i class="fas fa-mountain"></i>
-                        </div>
-                        <h3>Steinreinigung</h3>
-                        <p>Professionelle Reinigung von Naturstein, Marmor, Granit und Fassaden</p>
-                        <ul>
-                            <li>Natursteinreinigung</li>
-                            <li>Fassadenreinigung</li>
-                            <li>Marmor & Granit</li>
-                            <li>Grabstein-Pflege</li>
+                    <div class="service-content">
+                        <h3>Social Media</h3>
+                        <p class="service-subtitle">Stärke deine Online-Präsenz.</p>
+                        <p>Unsere Social-Media-Profis helfen dir dabei:</p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i>Werbeanzeigen optimal einzurichten</li>
+                            <li><i class="fas fa-check"></i>Deine Zielgruppe gezielt anzusprechen</li>
+                            <li><i class="fas fa-check"></i>Mehr Traffic auf deine Website zu lenken</li>
                         </ul>
-                        <div class="service-wave"></div>
                     </div>
-                    
-                    <div class="service-card" data-aos="flip-left" data-aos-delay="200">
-                        <div class="service-icon">
-                            <i class="fas fa-square"></i>
+                    <div class="service-stats">
+                        <div class="stat">
+                            <span class="stat-number">+250%</span>
+                            <span class="stat-label">Mehr Reichweite</span>
                         </div>
-                        <h3>Flächenreinigung</h3>
-                        <p>Gründliche Reinigung von Terrassen, Parkplätzen und Aussenflächen</p>
-                        <ul>
-                            <li>Terrassenreinigung</li>
-                            <li>Parkplatz-Reinigung</li>
-                            <li>Gehwegreinigung</li>
-                            <li>Industrieflächen</li>
+                        <div class="stat">
+                            <span class="stat-number">85%</span>
+                            <span class="stat-label">Bessere CTR</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Pages Service -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Produktseiten</h3>
+                        <p class="service-subtitle">Verwandle Klicks in Kunden.</p>
+                        <p>Wir gestalten und optimieren deine Produktseiten, um:</p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i>Mehr Kunden anzuziehen</li>
+                            <li><i class="fas fa-check"></i>Die Benutzererfahrung zu verbessern</li>
+                            <li><i class="fas fa-check"></i>Die Conversion-Rate zu erhöhen</li>
+                            <li><i class="fas fa-check"></i>Deinen Umsatz nachhaltig zu steigern</li>
                         </ul>
-                        <div class="service-wave"></div>
                     </div>
-                    
-                    <div class="service-card" data-aos="flip-left" data-aos-delay="300">
-                        <div class="service-icon">
-                            <i class="fas fa-tint"></i>
+                    <div class="service-stats">
+                        <div class="stat">
+                            <span class="stat-number">+180%</span>
+                            <span class="stat-label">Conversion Rate</span>
                         </div>
-                        <h3>Kanalreinigung</h3>
-                        <p>Spezialreinigung für Rohre, Kanäle und Abwassersysteme</p>
-                        <ul>
-                            <li>Rohrreinigung</li>
-                            <li>Kanalspülung</li>
-                            <li>Abwasserreinigung</li>
-                            <li>Verstopfungsbeseitigung</li>
+                        <div class="stat">
+                            <span class="stat-number">92%</span>
+                            <span class="stat-label">User Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Email Service -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>E-Mail Marketing</h3>
+                        <p class="service-subtitle">Bleib im Gespräch. Gewinne mehr Kunden.</p>
+                        <p>Wir erstellen und verwalten zielgerichtete E-Mail-Newsletter, die:</p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i>Deine Kund*innen binden</li>
+                            <li><i class="fas fa-check"></i>Deine Angebote effektiv präsentieren</li>
+                            <li><i class="fas fa-check"></i>Deine Umsätze messbar steigern</li>
                         </ul>
-                        <div class="service-wave"></div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="features">
-            <div class="container">
-                <div class="features-content">
-                    <div class="features-text" data-aos="fade-right">
-                        <h2>Warum BS Hydro Cleaning?</h2>
-                        <div class="feature-list">
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="fas fa-check-circle"></i>
-                                </div>
-                                <div>
-                                    <h4>Schweizer Qualität</h4>
-                                    <p>Präzision und Zuverlässigkeit nach Schweizer Standards</p>
-                                </div>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="fas fa-leaf"></i>
-                                </div>
-                                <div>
-                                    <h4>Umweltschonend</h4>
-                                    <p>Biologisch abbaubare Reinigungsmittel für unsere Natur</p>
-                                </div>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="fas fa-clock"></i>
-                                </div>
-                                <div>
-                                    <h4>Schnell & Pünktlich</h4>
-                                    <p>Zuverlässige Termine in der ganzen Schweiz</p>
-                                </div>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon">
-                                    <i class="fas fa-shield-alt"></i>
-                                </div>
-                                <div>
-                                    <h4>Vollversichert</h4>
-                                    <p>Umfassende Versicherung für Ihre Sicherheit</p>
-                                </div>
-                            </div>
+                    <div class="service-stats">
+                        <div class="stat">
+                            <span class="stat-number">45%</span>
+                            <span class="stat-label">Open Rate</span>
                         </div>
-                    </div>
-                    
-                    <div class="features-visual" data-aos="fade-left">
-                        <div class="water-sphere">
-                            <div class="sphere-inner">
-                                <div class="water-drop"></div>
-                            </div>
-                        </div>
-                        <div class="floating-elements">
-                            <div class="floating-icon icon-1">
-                                <i class="fas fa-droplet"></i>
-                            </div>
-                            <div class="floating-icon icon-2">
-                                <i class="fas fa-sparkles"></i>
-                            </div>
-                            <div class="floating-icon icon-3">
-                                <i class="fas fa-wind"></i>
-                            </div>
+                        <div class="stat">
+                            <span class="stat-number">12%</span>
+                            <span class="stat-label">Click Rate</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="swiss-locations">
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
             <div class="container">
-                <h2 class="section-title" data-aos="fade-up">Schweizweit im Einsatz</h2>
-                <div class="locations-grid">
-                    <div class="location-card" data-aos="slide-up" data-aos-delay="100">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <h3>Zürich</h3>
-                        <p>Grossraum Zürich</p>
-                    </div>
-                    <div class="location-card" data-aos="slide-up" data-aos-delay="200">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <h3>Basel</h3>
-                        <p>Region Basel</p>
-                    </div>
-                    <div class="location-card" data-aos="slide-up" data-aos-delay="300">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <h3>Bern</h3>
-                        <p>Hauptstadtregion</p>
-                    </div>
-                    <div class="location-card" data-aos="slide-up" data-aos-delay="400">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <h3>Luzern</h3>
-                        <p>Zentralschweiz</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="water-facts">
-            <div class="container">
-                <h2 class="section-title" data-aos="fade-up">Mit der Kraft des Wassers</h2>
-                <div class="facts-grid">
-                    <div class="fact-card" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="fact-icon">
-                            <i class="fas fa-tachometer-alt"></i>
-                        </div>
-                        <h3>Hochdruck-Technologie</h3>
-                        <p>Bis zu 200 Bar Wasserdruck für optimale Reinigungsergebnisse</p>
-                    </div>
-                    <div class="fact-card" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="fact-icon">
-                            <i class="fas fa-thermometer-half"></i>
-                        </div>
-                        <h3>Heisswasser-Verfahren</h3>
-                        <p>Bis zu 85°C für hartnäckige Verschmutzungen</p>
-                    </div>
-                    <div class="fact-card" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="fact-icon">
-                            <i class="fas fa-recycle"></i>
-                        </div>
-                        <h3>Wasser-Recycling</h3>
-                        <p>Nachhaltiger Umgang mit unserem wertvollsten Gut</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="cta">
-            <div class="container">
-                <div class="cta-content" data-aos="fade-up">
-                    <h2>Bereit für professionelle Sauberkeit?</h2>
-                    <p>Kontaktieren Sie uns noch heute für eine kostenlose Offerte</p>
-                    <div class="cta-buttons">
-                        <a href="kontakt.html" class="btn btn-primary">
+                <h2 class="section-title">Bereit für mehr Erfolg?</h2>
+                <p class="contact-subtitle">Lassen Sie uns gemeinsam Ihre digitale Strategie entwickeln</p>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
                             <i class="fas fa-phone"></i>
-                            Kostenlose Offerte
-                        </a>
-                        <a href="tel:+41445551234" class="btn btn-secondary">
-                            <i class="fas fa-phone-alt"></i>
-                            +41 44 555 12 34
-                        </a>
+                            <span>+49 (0) 123 456 789</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@strategiemitwirkung.de</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Deutschland</span>
+                        </div>
                     </div>
+                    <a href="mailto:info@strategiemitwirkung.de" class="cta-button">Jetzt Beratung anfragen</a>
                 </div>
             </div>
         </section>
@@ -309,38 +188,10 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>BS Hydro Cleaning</h3>
-                    <p>Ihr Partner für professionelle Reinigung in der Schweiz</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-                <div class="footer-section">
-                    <h4>Dienstleistungen</h4>
-                    <ul>
-                        <li>Steinreinigung</li>
-                        <li>Flächenreinigung</li>
-                        <li>Kanalreinigung</li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Kontakt</h4>
-                    <p>Telefon: +41 44 555 12 34</p>
-                    <p>E-Mail: info@bs-hydro-cleaning.ch</p>
-                    <p>Zürich, Schweiz</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 BS Hydro Cleaning. Alle Rechte vorbehalten.</p>
-            </div>
+            <p>&copy; 2024 Strategie mit Wirkung. Alle Rechte vorbehalten.</p>
         </div>
     </footer>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
